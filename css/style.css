@@ -28,3 +28,6 @@ body {
     color: white;
     font-size: 16px;
 }
+.button-container button:hover {
+    background-color: #0056b3;
+}
