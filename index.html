@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Toggler</title>
-    <link rel="stylesheet" href="css/style.css"/>
-    <script>
-        document.getElementById('button1').addEventListener('click', function() {
-    document.getElementById('toggleImage').src = 'img/img1.jpg';});
-
-    document.getElementById('button2').addEventListener('click', function() {
-    document.getElementById('toggleImage').src = 'img/img2.jpg';});
-    </script>
+    <link rel="stylesheet" href="css/style.css"/> 
 </head>
 <body>
     <div class="container">
@@ -24,5 +17,14 @@
             <button id="button2">Show Image 2</button>
         </div>
     </div>
+    <script>
+        document.getElementById('button1').addEventListener('click', function() {
+    document.getElementById('toggleImage').src = 'img/img1.jpg';
+});
+
+    document.getElementById('button2').addEventListener('click', function() {
+    document.getElementById('toggleImage').src = 'img/img2.jpg';
+});
+    </script>
 </body>
 </html>
